@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NavBar from '../../components/Navigation/NavBar';
 
 class Home extends Component{
     constructor(props){
@@ -7,7 +8,7 @@ class Home extends Component{
     render(){
         return(
             <div className="container">
-                Home!
+                <h1>Home!</h1>
             </div>
         )
     }

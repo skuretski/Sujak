@@ -8,6 +8,7 @@ import News from '../containers/pages/News';
 import Nursing from '../containers/pages/Nursing';
 import Projects from '../containers/pages/Projects';
 import My404 from '../containers/pages/My404';
+import NavBar from '../components/Navigation/NavBar';
 
 class App extends Component{
     constructor(props){
@@ -26,6 +27,7 @@ class App extends Component{
                     <Route exact path="/" component={Home}/>
                     <Route path="*" component={My404}/>
                 </Switch>
+                <NavBar/>
             </div>
         );
     }
