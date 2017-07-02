@@ -6,8 +6,8 @@ class My404 extends Component{
     }
     render(){
         return(
-            <div className="container">
-                <p>Whoops! Page not found. </p>
+            <div className="container-fluid">
+                <h2>Whoops! Page not found. </h2>
             </div>
         )
     }
