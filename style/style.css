@@ -1,20 +1,24 @@
 body{
     padding-top: 150px;
-    padding-bottom: 100px;
-    background-color: rgba(255, 245, 195, 0.44) !important;
+    padding-bottom: 200px;
+    background-color: rgba(255, 245, 195, 0.49) !important;
 }
 /* Navigation Styling  */
 nav{
     padding: 10px;
     background-color: #76c7c5 !important;
     font-weight: bold;
-    font-family: "FreeMono", monospace;
+    font-variant: small-caps;
+    font-family: "Helvetica", sans-serif;
 }
 .navbar-brand{
     font-size: 28px !important;
     color: #333 !important;
     font-weight: bold;
-    font-family: "Stencil";
+}
+.nav-pills >li{
+    padding-left: 2%;
+    padding-right: 2%;
 }
 a{
     color: #333 !important;
@@ -24,7 +28,6 @@ a{
 /* Carousel Home Page */
 .carousel-inner > .item > img{
     margin: 0 auto;
-
 }
 .tales{
     width: 100%;
@@ -36,4 +39,13 @@ a{
 .carousel-control{
     background-color: white;
     background-image: none !important;
+}
+
+h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+
+p{
+    font-size: 16px;
 }

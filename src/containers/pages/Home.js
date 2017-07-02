@@ -13,6 +13,7 @@ class Home extends Component{
                         <li data-target="#homeCarousel" data-slide-to="0" className="active"></li>
                         <li data-target="#homeCarousel" data-slide-to="1"></li>
                         <li data-target="#homeCarousel" data-slide-to="2"></li>
+                        <li data-target="#homeCarousel" data-slide-to="3"></li>
                     </ol>
                     <div className="carousel-inner">
                         <div className="item active">
@@ -36,6 +37,13 @@ class Home extends Component{
                                 <p>BlizzCon 2013</p>
                             </div>
                         </div>
+                        <div className="item">
+                            <img src="http://i.imgur.com/vhWQsR7.jpg?1" alt="Fourth slide"/>
+                            <div className="carousel-caption d-none d-md-block">
+                                <h3>My mITX</h3>
+                                <p>My current PC built in November 2013.</p>
+                            </div>
+                        </div>
                     </div>
                     <a className="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
                         <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -45,20 +53,22 @@ class Home extends Component{
                         <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>
-                </div>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-md-4">
-                        <h1>Something</h1>
+                </div> {/* <!-- END CAROUSEL --> */}
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-2">
+                        </div>
+                        <div className="col-md-8">
+                            <h1>Welcome to SujakStack</h1>
+                                <p>For a long time, I have managed two different blogs on WordPress and shared
+                                    various projects on GitHub. SujakStack is my one-stop shop for all these things
+                                    plus some new content!  
+                                </p>
+                        </div>
+                        <div className="col-md-2">
+                        </div>
                     </div>
-                    <div className="col-md-4">
-                        <h1>Else</h1>
-                    </div>
-                    <div className="col-md-4">
-                        <h1>Here</h1>
-                    </div>
-                </div>
-            </div>
+                </div> {/* <!-- END Page content --> */}
             </div>
         )
     }
