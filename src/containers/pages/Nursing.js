@@ -6,7 +6,7 @@ class Nursing extends Component{
     }
     render(){
         return(
-            <div className="container">
+            <div className="container-fluid">
                 Nursing!
             </div>
         )

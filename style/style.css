@@ -41,11 +41,20 @@ a{
     background-image: none !important;
 }
 
+#carouselList > li{
+    align-content: center;
+}
 h1{
     text-align: center;
     font-variant: small-caps;
+    color: #ff7260 !important;
+    font-size: 50px !important;
+}
+h2{
+    text-align: center;
+    font-variant: small-caps;
+}
+p{
+    font-size: 20px;
 }
 
-p{
-    font-size: 16px;
-}

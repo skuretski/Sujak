@@ -6,7 +6,7 @@ class Games extends Component{
     }
     render(){
         return(
-            <div className="container">
+            <div className="container-fluid">
                 Games!
             </div>
         )

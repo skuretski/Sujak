@@ -6,7 +6,7 @@ class Projects extends Component{
     }
     render(){
         return(
-            <div className="container">
+            <div className="container-fluid">
                 Projects!
             </div>
         )
