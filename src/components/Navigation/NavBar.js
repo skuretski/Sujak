@@ -25,9 +25,9 @@ class NavBar extends Component{
                     </div> {/* <!-- container-fluid --> */}
                     <div className="collapse navbar-collapse" id="main-nav">
                         <ul className="nav nav-pills nav-justified">
-                            <li><NavLink exact={true} to="/" data-toggle="collapse" activeClassName="selected"
-                                onClick={(e) => this.onClick()}
-                            ><span className="glyphicon glyphicon-home"></span>  Home</NavLink></li>
+                            <li><NavLink to="/" activeClassName="selected" onClick={(e) => this.onClick()}>   
+                                <span className="glyphicon glyphicon-home"></span>  Home</NavLink>
+                            </li>
                             <li><NavLink to="/news" activeClassName="selected" onClick={(e) => this.onClick()}>News</NavLink></li>
                             <li><NavLink to="/projects" activeClassName="selected" onClick={(e) => this.onClick()}>Projects</NavLink></li>
                             <li><NavLink to="/games" activeClassName="selected" onClick={(e) => this.onClick()}>Games</NavLink></li>
