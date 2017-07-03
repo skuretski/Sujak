@@ -5,6 +5,9 @@ class NavBar extends Component{
     constructor(props){
         super(props);
     }
+    onClick(){
+        $('#main-nav').collapse('hide');
+    }
     render(){
         return(
             <div className="container-fluid">
@@ -22,15 +25,24 @@ class NavBar extends Component{
                     </div> {/* <!-- container-fluid --> */}
                     <div className="collapse navbar-collapse" id="main-nav">
                         <ul className="nav nav-pills nav-justified">
-                            <li><NavLink exact={true} to="/" activeClassName="selected"><span className="glyphicon glyphicon-home"></span>  Home</NavLink></li>
-                            <li><NavLink to="/news" activeClassName="selected">News</NavLink></li>
-                            <li><NavLink to="/projects" activeClassName="selected">Projects</NavLink></li>
-                            <li><NavLink to="/games" activeClassName="selected">Games</NavLink></li>
-                            <li><NavLink to="/nursing" activeClassName="selected">Nursing</NavLink></li>
-                            <li><NavLink to="/about" activeClassName="selected">About</NavLink></li>
+                            <li><NavLink exact={true} to="/" data-toggle="collapse" activeClassName="selected"
+                                onClick={(e) => this.onClick()}
+                            ><span className="glyphicon glyphicon-home"></span>  Home</NavLink></li>
+                            <li><NavLink to="/news" activeClassName="selected" onClick={(e) => this.onClick()}>News</NavLink></li>
+                            <li><NavLink to="/projects" activeClassName="selected" onClick={(e) => this.onClick()}>Projects</NavLink></li>
+                            <li><NavLink to="/games" activeClassName="selected" onClick={(e) => this.onClick()}>Games</NavLink></li>
+                            <li><NavLink to="/nursing" activeClassName="selected" onClick={(e) => this.onClick()}>Nursing</NavLink></li>
+                            <li><NavLink to="/about" activeClassName="selected" onClick={(e) => this.onClick()}>About</NavLink></li>
                         </ul> {/* <!-- nav-pills --> */}
                     </div> {/* <!-- navbar-collapse --> */}
                 </nav> {/* <!-- navbar --> */}
+                <nav className="navbar navbar-default navbar-fixed-bottom">
+                    <ul className="list-inline">                    
+                        <li><NavLink to="https://twitter.com/TheSushiQ" target="_blank"><img src="http://i.imgur.com/W3eJ3uW.png?3" alt="twitter_logo"/></NavLink></li>
+                        <li><NavLink to="https://github.com/skuretski" target="_blank"><img src="http://i.imgur.com/NwpINXv.png" alt="github_logo"/></NavLink></li>
+                        <li><NavLink to="https://www.linkedin.com/in/skuretski/" target="_blank"><img src="http://i.imgur.com/2y3xMGV.png" alt="linkedin_logo"/></NavLink></li>
+                    </ul>
+                </nav>
             </div>
         );
     }

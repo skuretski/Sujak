@@ -30,8 +30,7 @@ class News extends Component{
                             <p>
                                 Developers throw the word "stack" around. There are actually different kinds of references to stack in the tech world!
                                 <ul>
-                                    <li>Last-In, First-Out Data Structure<img src="http://i.imgur.com/25PD4eI.png?2" alt="ds_stack" className="rounded float-left"/></li>
-
+                                    <li>Last-In, First-Out Data Structure<img src="http://i.imgur.com/0jAmSgum.png" alt="ds_stack" className="rounded float-left"/></li>
                                     <li>Network Protocol Stack</li>
                                     <li>Layers of Technology to Build an Application</li>
                                 </ul> 
