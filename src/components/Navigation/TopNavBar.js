@@ -31,7 +31,7 @@ class TopNavBar extends Component{
                             <li><NavLink to="/news" activeClassName="selected" onClick={(e) => this.onClick()}>News</NavLink></li>
                             <li><NavLink to="/projects" activeClassName="selected" onClick={(e) => this.onClick()}>Projects</NavLink></li>
                             <li><NavLink to="/games" activeClassName="selected" onClick={(e) => this.onClick()}>Games</NavLink></li>
-                            <li><NavLink to="/nursing" activeClassName="selected" onClick={(e) => this.onClick()}>Nursing</NavLink></li>
+                            <li><NavLink to="/nursing" activeClassName="selected" onClick={(e) => this.onClick()}>Health Care</NavLink></li>
                             <li><NavLink to="/about" activeClassName="selected" onClick={(e) => this.onClick()}>About</NavLink></li>
                         </ul> {/* <!-- nav-pills --> */}
                     </div> {/* <!-- navbar-collapse --> */}

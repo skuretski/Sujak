@@ -15,20 +15,19 @@ class News extends Component{
                         <div className="well">
                             <h1>Top News</h1>   
                                 <h3>This site has officially launched!</h3>
-                                <p>I'm very excited to announce that this site is slightly functional.
+                                <p>I'm very excited to announce this site is running as of June 30, 2017. 
                                 </p><br/>
-                            <h1>This Stack</h1>
+                            <h1>Why "Sujak Stack"</h1>
                                 <p>Developers throw the word "stack" around. There are actually 
                                     different kinds of references to stack in the tech world!
                                 </p><br/>
                             <div className="row">
-                                <div className="col-sm-4" id="media-col">
+                                <div className="col-sm-4">
                                     <div className="media-left">
                                         <img className="image-responsive" src="http://i.imgur.com/dPtQnjHm.png" alt="sujak_stack"/>
                                     </div>
                                 </div>
-                                <div className="col-sm-1">
-                                </div>
+                                <div className="col-sm-1"/>
                                 <div className="col-sm-7">
                                     <h3 className="image-responsive">Last-In, First-Out Data Structure</h3>
                                     <p>
@@ -40,15 +39,28 @@ class News extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-sm-4" id="media-col">
+                                <div className="col-sm-4">
                                     <div className="media-left">
                                         <img className="image-responsive" src="http://i.imgur.com/DEDjvQYm.png" alt="net_prot"/>
                                     </div>
                                 </div>
-                                <div className="col-sm-1">
-                                </div>
+                                <div className="col-sm-1"/>
                                 <div className="col-sm-7">
                                     <h3 className="media-heading">Network Protocol Stack</h3>
+                                    <p>The network protocol stack describes the way in which data can travel through a network.
+                                    Together, each layer serves a purpose to package the data and send it on its way to the receiver. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-sm-4">
+                                    <div className="media-left">
+                                        <img/>
+                                    </div>
+                                </div>
+                                <div className="col-sm-1"/>
+                                <div className="col-sm-7">
+                                    <h3 className="media-heading"></h3>
                                     <p>
                                     </p>
                                 </div>
