@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-class NavBar extends Component{
+class TopNavBar extends Component{
     constructor(props){
         super(props);
     }
@@ -36,6 +36,7 @@ class NavBar extends Component{
                         </ul> {/* <!-- nav-pills --> */}
                     </div> {/* <!-- navbar-collapse --> */}
                 </nav> {/* <!-- navbar --> */}
+
                 <nav className="navbar navbar-default navbar-fixed-bottom">
                     <ul className="list-inline">                    
                         <li><NavLink to="https://twitter.com/TheSushiQ" target="_blank"><img src="http://i.imgur.com/W3eJ3uW.png?3" alt="twitter_logo"/></NavLink></li>
@@ -48,4 +49,4 @@ class NavBar extends Component{
     }
 }
 
-export default NavBar;
+export default TopNavBar;

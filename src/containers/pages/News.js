@@ -7,30 +7,38 @@ class News extends Component{
     }
     render(){
         return(
-            <div className="container-fluid">
+            <div className="container-fluid"> 
                 <div className="row">
-                    <div className="col-md-2">
+                    <div className="col-md-1">
                     </div>
                     <div className="col-md-8">
                         <div className="well">
-                            <h1>Top News</h1>
+                            <h1>Top News</h1>   
                                 <h3>This site has officially launched!</h3>
-                                <p> After graduation in June 2017, I got to work on this site to 
-                                    compile everything into one.
+                                <p>I'm very excited to announce that this site is slightly functional.
                                 </p><br/>
                             <h1>This Stack</h1>
                                 <p>Developers throw the word "stack" around. There are actually 
                                     different kinds of references to stack in the tech world!
                                 </p>
-                                    <ul>
-                                        <li>Last-In, First-Out Data Structure
-                                            <img src="http://i.imgur.com/0jAmSgum.png" 
-                                                alt="ds_stack" 
-                                                className="rounded float-left"/>
-                                        </li>
-                                        <li>Network Protocol Stack</li>
-                                        <li>Layers of Technology to Build an Application</li>
-                                    </ul> 
+                                <ul className="media-list">
+                                    <li className="media">
+                                        <div className="media-left">
+                                            <img className="media-object" src="http://i.imgur.com/dPtQnjHm.png" alt="sujak_stack"/>
+                                        </div>
+                                        <div className="media-body">
+                                            <h3 className="media-heading">Last-In, First-Out Data Structure</h3>
+                                        </div>
+                                    </li>
+                                    <li className="media">
+                                        <div className="media-left">
+                                            <img className="media-object" src="http://i.imgur.com/DEDjvQYm.png" alt="net_prot"/>
+                                        </div>
+                                        <div className="media-body">
+                                            <h3 className="media-heading">Network Protocol Stack</h3>
+                                        </div>
+                                    </li>
+                                </ul>
                                 <p>
                                     For this site name, I refer to stack in the latter form: the layers of technologies used to build something.
                                     This could be a back-end server which communicates with a database and serves users web pages to view, commonly
@@ -44,8 +52,8 @@ class News extends Component{
                                 </p>
                         </div>
                     </div>
-                    <div className="col-md-2">
-                        <TwitterTimeline/>
+                    <div className="col-md-3">
+                        <TwitterTimeline user="TheSushiQ" limit="4"/>
                     </div>
                 </div>
             </div>

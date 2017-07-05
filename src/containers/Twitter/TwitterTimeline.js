@@ -26,20 +26,24 @@ class TwitterTimeline extends Component{
         }
     }
     render(){
-        return(
+        const { user, limit } = this.props;
+        return(   
             <div className="container-fluid">
-                <h2>Twitter Feed</h2>
-                <p>Follow Me @TheSushiQ</p>
-                <a className="twitter-follow-button"
-                    href="https://twitter.com/TheSushiQ"/>
+                <div className="well">
+                    <h2>Twitter Feed</h2>
+                    <p>Follow Me @{user}</p>
+                    <a className="twitter-follow-button"
+                        href={`https://twitter.com/${user}`}
+                    />
+                </div> { /* <!-- End well --> */}
                 <a 
                     ref="twittertimeline"
                     className="twitter-timeline" 
-                    data-tweet-limit="7"
+                    data-tweet-limit={limit}
                     data-theme="dark"
                     data-lang="en"
-                    href="https://twitter.com/TheSushiQ">
-                    Tweets By TheSushiQ
+                    href={`https://twitter.com/${user}`}>
+                    Tweets By {user}
                 </a>
             </div>
         )

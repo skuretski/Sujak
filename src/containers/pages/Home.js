@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavBar from '../../components/Navigation/NavBar';
 
 class Home extends Component{
     constructor(props){
@@ -9,7 +8,9 @@ class Home extends Component{
         return(
             <div className="container-fluid">
                 <div className="container-fluid">
+                    <div className="row">
                     <h1 className="jumbotron">Welcome to SujakStack</h1>
+                    </div>
                     <div className="row">
                         <div className="col-md-6">
                             <div className="well">
