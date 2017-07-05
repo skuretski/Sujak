@@ -34,7 +34,7 @@ class Home extends Component{
                             </div>
                         </div> {/* <-- End col-md-6 --> */}
                         <div className="col-md-6">
-                            <img src="http://i.imgur.com/fZjtZUKl.png?2" className="img-responsive" alt="susie_bw"/>
+                            <img src="http://i.imgur.com/fZjtZUKl.png?2" className="img-responsive img-rounded" alt="susie_bw"/>
                         </div>
                     </div> {/* <-- End row --> */}
                 </div> {/* <!-- END Page content --> */}

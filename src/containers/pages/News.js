@@ -20,25 +20,36 @@ class News extends Component{
                             <h1>This Stack</h1>
                                 <p>Developers throw the word "stack" around. There are actually 
                                     different kinds of references to stack in the tech world!
-                                </p>
-                                <ul className="media-list">
-                                    <li className="media">
-                                        <div className="media-left">
-                                            <img className="media-object" src="http://i.imgur.com/dPtQnjHm.png" alt="sujak_stack"/>
-                                        </div>
-                                        <div className="media-body">
-                                            <h3 className="media-heading">Last-In, First-Out Data Structure</h3>
-                                        </div>
-                                    </li>
-                                    <li className="media">
-                                        <div className="media-left">
-                                            <img className="media-object" src="http://i.imgur.com/DEDjvQYm.png" alt="net_prot"/>
-                                        </div>
-                                        <div className="media-body">
-                                            <h3 className="media-heading">Network Protocol Stack</h3>
-                                        </div>
-                                    </li>
-                                </ul>
+                                </p><br/>
+                            <div className="row">
+                                <div className="col-sm-4">
+                                    <div className="media-left">
+                                        <img className="image-responsive" src="http://i.imgur.com/dPtQnjHm.png" alt="sujak_stack"/>
+                                    </div>
+                                </div>
+                                <div className="col-sm-8">
+                                    <h3 className="image-responsive">Last-In, First-Out Data Structure</h3>
+                                    <p>
+                                        This structure holds data like a cart line at a grocery store. A leaving shopper 
+                                        puts the cart in the line, and another person comes along and takes 
+                                        that same cart because it's the top-most. The very first cart of the 
+                                        line will not see a shopper until all the other carts before it are taken. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-sm-4">
+                                    <div className="media-left">
+                                        <img className="image-responsive" src="http://i.imgur.com/DEDjvQYm.png" alt="net_prot"/>
+                                    </div>
+                                </div>
+                                <div className="col-sm-8">
+                                    <h3 className="media-heading">Network Protocol Stack</h3>
+                                    <p>
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="container-fluid">
                                 <p>
                                     For this site name, I refer to stack in the latter form: the layers of technologies used to build something.
                                     This could be a back-end server which communicates with a database and serves users web pages to view, commonly
@@ -50,6 +61,7 @@ class News extends Component{
                                     an AWS user for almost a year, but my free tier is expiring, so I switched to Heroku for this application. 
                                     I'm still a fan of AWS since it's nice to have my own infrastructures in the cloud, like a Linux box.  
                                 </p>
+                            </div>
                         </div>
                     </div>
                     <div className="col-md-3">
