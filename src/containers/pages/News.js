@@ -22,12 +22,14 @@ class News extends Component{
                                     different kinds of references to stack in the tech world!
                                 </p><br/>
                             <div className="row">
-                                <div className="col-sm-4">
+                                <div className="col-sm-4" id="media-col">
                                     <div className="media-left">
                                         <img className="image-responsive" src="http://i.imgur.com/dPtQnjHm.png" alt="sujak_stack"/>
                                     </div>
                                 </div>
-                                <div className="col-sm-8">
+                                <div className="col-sm-1">
+                                </div>
+                                <div className="col-sm-7">
                                     <h3 className="image-responsive">Last-In, First-Out Data Structure</h3>
                                     <p>
                                         This structure holds data like a cart line at a grocery store. A leaving shopper 
@@ -38,12 +40,14 @@ class News extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-sm-4">
+                                <div className="col-sm-4" id="media-col">
                                     <div className="media-left">
                                         <img className="image-responsive" src="http://i.imgur.com/DEDjvQYm.png" alt="net_prot"/>
                                     </div>
                                 </div>
-                                <div className="col-sm-8">
+                                <div className="col-sm-1">
+                                </div>
+                                <div className="col-sm-7">
                                     <h3 className="media-heading">Network Protocol Stack</h3>
                                     <p>
                                     </p>
