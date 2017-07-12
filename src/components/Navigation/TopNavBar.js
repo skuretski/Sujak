@@ -20,14 +20,15 @@ class TopNavBar extends Component{
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <NavLink className="navbar-brand" to="/"><bold>SujakStack</bold></NavLink>
+                            <NavLink className="navbar-brand" to="/" activeClassName="selected" onClick={(e) => this.onClick()}>
+                                    <img className="hidden-xs" src="http://i.imgur.com/KggkdcJt.png"/>
+                                    <h3 className="visible-xs">SujakStack</h3>
+                            </NavLink>
                         </div> {/* <!-- navbar-header --> */}
                     </div> {/* <!-- container-fluid --> */}
                     <div className="collapse navbar-collapse" id="main-nav">
                         <ul className="nav nav-pills nav-justified">
-                            <li><NavLink to="/" activeClassName="selected" onClick={(e) => this.onClick()}>   
-                                <span className="glyphicon glyphicon-home"></span>  Home</NavLink>
-                            </li>
+                            <li/>
                             <li><NavLink to="/news" activeClassName="selected" onClick={(e) => this.onClick()}>News</NavLink></li>
                             <li><NavLink to="/projects" activeClassName="selected" onClick={(e) => this.onClick()}>Projects</NavLink></li>
                             <li><NavLink to="/games" activeClassName="selected" onClick={(e) => this.onClick()}>Games</NavLink></li>

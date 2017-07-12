@@ -24,7 +24,7 @@ class News extends Component{
                             <div className="row">
                                 <div className="col-sm-4">
                                     <div className="media-left">
-                                        <img className="image-responsive" src="http://i.imgur.com/dPtQnjHm.png" alt="sujak_stack"/>
+                                        <img className="image-responsive" src="http://i.imgur.com/TwKNpGUm.png" alt="sujak_stack"/>
                                     </div>
                                 </div>
                                 <div className="col-sm-1"/>
@@ -41,7 +41,7 @@ class News extends Component{
                             <div className="row">
                                 <div className="col-sm-4">
                                     <div className="media-left">
-                                        <img className="image-responsive" src="http://i.imgur.com/DEDjvQYm.png" alt="net_prot"/>
+                                        <img className="image-responsive" src="http://i.imgur.com/58TCUpHm.png" alt="net_prot"/>
                                     </div>
                                 </div>
                                 <div className="col-sm-1"/>
@@ -51,16 +51,16 @@ class News extends Component{
                                     Together, each layer serves a purpose to package the data and send it on its way to the receiver. 
                                     </p>
                                 </div>
-                            </div>
+                            </div><br/>
                             <div className="row">
                                 <div className="col-sm-4">
                                     <div className="media-left">
-                                        <img/>
+                                        <img src="http://i.imgur.com/vpWQxWhm.png" className="img-responsive" alt="dev_stack"/>
                                     </div>
                                 </div>
                                 <div className="col-sm-1"/>
                                 <div className="col-sm-7">
-                                    <h3 className="media-heading"></h3>
+                                    <h3 className="media-heading">Web Developer Stack</h3>
                                     <p>
                                     </p>
                                 </div>

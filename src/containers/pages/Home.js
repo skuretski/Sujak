@@ -9,7 +9,7 @@ class Home extends Component{
             <div className="container-fluid">
                 <div className="container-fluid">
                     <div className="row">
-                    <h1 className="jumbotron">Welcome to SujakStack</h1>
+                    <h1 className="jumbotron"><img src="http://i.imgur.com/DZCvEMA.png?1" className="img-responsive" id="jumbo-logo"/></h1>
                     </div>
                     <div className="row">
                         <div className="col-md-6">
@@ -22,13 +22,12 @@ class Home extends Component{
                                 </ul><br/>
                                 <p>For a long time, I have managed two different blogs on WordPress and shared
                                     various projects on GitHub. SujakStack is my one-stop shop for all these things
-                                    plus some new content like games, online course reviews, and PC building! 
+                                    plus some new content like games, computer science topics, online course reviews, 
+                                    and PC building! 
                                 </p><br/>
                                 <p>I strongly believe in life-long learning to open the mind and explore the world. 
                                     I love to experience new things, whether it is in the realm of computer science or outside of it. 
-                                    I want to share my journey of learning to pique interest, give guidance, and provide some laughs.
-                                    Sometimes my journeys veer off course and hit some rocks, but I will try to gracefully 
-                                    steer it back on course in a Clark Griswold sort of way. Did I mention I love jokes?   
+                                    I want to share my journey of learning to pique interest, give guidance, and provide some laughs.  
                                 </p>
                                 <br/>
                             </div>
