@@ -7,7 +7,14 @@ class About extends Component{
     render(){
         return(
             <div className="container-fluid">
-                About!
+                <div className="row">
+                    <div className="col-md-2"/>
+                    <div className="col-md-8">
+                        <div className="well">
+                        </div> { /* <-- END WELL --> */}
+                    </div> {/* <-- END COL-MD-8 --> */}
+                    <div className="col-md-2"/>
+                </div> {/* <-- END ROW --> */}
             </div>
         )
     }
