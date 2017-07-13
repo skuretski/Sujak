@@ -5,7 +5,7 @@ import About from '../components/pages/About';
 import Games from '../components/pages/Games';
 import Home from '../components/pages/Home';
 import News from '../components/pages/News';
-import Nursing from '../components/pages/Nursing';
+import Healthcare from '../components/pages/Healthcare';
 import Projects from '../components/pages/Projects';
 import My404 from '../components/pages/My404';
 import TopNavBar from '../components/Navigation/TopNavBar';
@@ -24,7 +24,7 @@ class App extends Component{
                     <Route path="/about" component={About}/>
                     <Route path="/games" component={Games}/>
                     <Route path="/news" component={News}/>
-                    <Route path="/nursing" component={Nursing}/>
+                    <Route path="/nursing" component={Healthcare}/>
                     <Route path="/projects" component={Projects}/>
                     <Route path="/home" component={Home}/>
                     <Route exact path="/" component={Home}/>

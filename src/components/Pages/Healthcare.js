@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Projects extends Component{
+class Nursing extends Component{
     constructor(props){
         super(props);
     }
@@ -11,7 +11,7 @@ class Projects extends Component{
                     <div className="col-md-2"/>
                     <div className="col-md-8">
                         <div className="well">
-                            <h1>Current Projects</h1>
+                            <h1>Healthcare</h1>
                             <p>Coming soon!</p>
                         </div> {/* <!-- END WELL --> */}
                     </div> { /* <!-- END COL-MD-8 --> */}
@@ -22,4 +22,4 @@ class Projects extends Component{
     }
 }
 
-export default Projects;
+export default Nursing;

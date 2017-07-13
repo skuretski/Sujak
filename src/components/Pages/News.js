@@ -18,7 +18,8 @@ class News extends Component{
                                 <p>I'm very excited to announce this site is running as of June 30, 2017. 
                                 </p>
                                 <br/>
-                            <h2>Federal Communications Commission and Title II</h2>
+                            <h2>Battle for the Net!</h2>
+                            <h3>Federal Communications Commission and Title II</h3>
                                 <p>As of writing, it is possible the FCC may overturn its Title II authority to 
                                     enforce net neutrality. They may implement a different set of rules or may 
                                     completely wipe out those rules and classify Internet as Title I again. 
@@ -34,11 +35,11 @@ class News extends Component{
                                             recourse in the eyes of the FCC and federal courts under the revocation of Title II. </p></li>
                                         <li><h3>$$$$ and $</h3><p>Inevitably, this means you're at the mercy of your ISP. Hidden fees? Charging for 
                                             faster speeds? Charging for time on the Internet? Yep, they could do that, and your ability to dispute it 
-                                            is more difficult since not a lot will stand up in court.</p></li>
+                                            is more difficult since not much will stand up in court.</p></li>
                                         <li><h3>Small Business and Start-up Struggles</h3><p>An open Internet provides the opportunity for smaller, not 
                                             yet established companies to provide their services without having to worry about fast laning and big company 
                                             competition when it comes to Internet access. With the change to Title I for Internet, large companies can do 
-                                            whatever they please for the most part.</p></li>
+                                            whatever they please for the most part, and smaller businesses could struggle to pay for services.</p></li>
                                     </ul>   
                                 </p>
 
