@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Switch, Route, withRouter } from 'react-router-dom';
-import About from '../containers/pages/About';
-import Games from '../containers/pages/Games';
-import Home from '../containers/pages/Home';
-import News from '../containers/pages/News';
-import Nursing from '../containers/pages/Nursing';
-import Projects from '../containers/pages/Projects';
-import My404 from '../containers/pages/My404';
+import About from '../components/pages/About';
+import Games from '../components/pages/Games';
+import Home from '../components/pages/Home';
+import News from '../components/pages/News';
+import Nursing from '../components/pages/Nursing';
+import Projects from '../components/pages/Projects';
+import My404 from '../components/pages/My404';
 import TopNavBar from '../components/Navigation/TopNavBar';
+import Namesake from '../components/Subpages/Namesake';
 import BottomNavBar from '../components/Navigation/BottomNavBar';
 
 class App extends Component{
@@ -19,6 +20,7 @@ class App extends Component{
         return(
             <div>
                 <Switch>
+                    <Route path="/about/namesake" component={Namesake}/>
                     <Route path="/about" component={About}/>
                     <Route path="/games" component={Games}/>
                     <Route path="/news" component={News}/>

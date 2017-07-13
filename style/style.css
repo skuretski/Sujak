@@ -8,9 +8,9 @@ body{
     background-color: #edefee !important;
 }
 /* Navigation Styling  */
-a:hover{
+#main-nav > ul > li > a:hover, #main-nav > ul > li > ul > li > a:hover{
     background-color: #fce7e2 !important;
-    color:#ec5742 !important;
+    color:#9a9898!important;
 }
 a.active{
     background-color: #fce7e2 !important;
@@ -124,15 +124,20 @@ h1{
     background-color: #fce7e2 !important;
 }
 h2{
-
     font-variant: small-caps;
     color: #ee9285 !important
 }
-h3{
+h3, h4{
     color: #ee9285 !important;
 }
 
 /* Print */
 p{
-    font-size: 20px;
+    font-size: 18px;
+}
+p > a, p > a:hover{
+    color: #ee9285 !important;
+}
+hr {
+    border-color: #333 !important;
 }

@@ -33,18 +33,17 @@ class TopNavBar extends Component{
                             <li><NavLink to="/projects" activeClassName="selected" onClick={(e) => this.onClick()}>Projects</NavLink></li>
                             <li><NavLink to="/games" activeClassName="selected" onClick={(e) => this.onClick()}>Games</NavLink></li>
                             <li><NavLink to="/nursing" activeClassName="selected" onClick={(e) => this.onClick()}>Health Care</NavLink></li>
-                            <li><NavLink to="/about" activeClassName="selected" onClick={(e) => this.onClick()}>About</NavLink></li>
+                            <li className="dropdown">
+                                <a className="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                aria-expanded="false">About<span className="caret"></span></a>
+                                <ul className="dropdown-menu">
+                                    <li><NavLink exact={true} activeClassName="selected" to="/about">About Sujak</NavLink></li>
+                                    <li><NavLink exact={true} activeClassName="selected" to="/about/namesake">Namesake</NavLink></li>
+                                </ul>
+                            </li>
                         </ul> {/* <!-- nav-pills --> */}
                     </div> {/* <!-- navbar-collapse --> */}
                 </nav> {/* <!-- navbar --> */}
-
-                <nav className="navbar navbar-default navbar-fixed-bottom">
-                    <ul className="list-inline">                    
-                        <li><NavLink to="https://twitter.com/TheSushiQ" target="_blank"><img src="http://i.imgur.com/W3eJ3uW.png?3" alt="twitter_logo"/></NavLink></li>
-                        <li><NavLink to="https://github.com/skuretski" target="_blank"><img src="http://i.imgur.com/NwpINXv.png" alt="github_logo"/></NavLink></li>
-                        <li><NavLink to="https://www.linkedin.com/in/skuretski/" target="_blank"><img src="http://i.imgur.com/2y3xMGV.png" alt="linkedin_logo"/></NavLink></li>
-                    </ul>
-                </nav>
             </div>
         );
     }
