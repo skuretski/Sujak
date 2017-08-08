@@ -5,6 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { BrowserRouter } from 'react-router-dom';
 import App from './components/App';
+import ScrollToTop from './components/Navigation/ScrollToTop/ScrollToTop';
 
 const configuredStore = createStore(
     applyMiddleware(thunk)
@@ -13,8 +14,10 @@ const configuredStore = createStore(
 ReactDOM.render(
     <Provider store= {configuredStore}>
         <BrowserRouter>
+            <ScrollToTop>
             <App/>
-        </BrowserRouter>
+            </ScrollToTop>
+        </BrowserRouter> 
     </Provider>
     , document.querySelector('#htmlContainer')
 );

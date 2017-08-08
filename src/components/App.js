@@ -9,8 +9,9 @@ import Healthcare from '../components/pages/Healthcare';
 import Projects from '../components/pages/Projects';
 import My404 from '../components/pages/My404';
 import TopNavBar from '../components/Navigation/TopNavBar';
-import Namesake from '../components/Subpages/Namesake';
+import Namesake from '../components/Subpages/About/Namesake';
 import BottomNavBar from '../components/Navigation/BottomNavBar';
+import CodingChallenge from '../components/Subpages/Projects/CodingChallenge';
 
 class App extends Component{
     constructor(props){
@@ -25,6 +26,7 @@ class App extends Component{
                     <Route path="/games" component={Games}/>
                     <Route path="/news" component={News}/>
                     <Route path="/nursing" component={Healthcare}/>
+                    <Route path="/projects/CTCI" component={CodingChallenge}/>
                     <Route path="/projects" component={Projects}/>
                     <Route path="/home" component={Home}/>
                     <Route exact path="/" component={Home}/>
