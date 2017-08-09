@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
@@ -12,10 +12,10 @@ const configuredStore = createStore(
 );
 
 ReactDOM.render(
-    <Provider store= {configuredStore}>
+    <Provider store={configuredStore}>
         <BrowserRouter>
             <ScrollToTop>
-            <App/>
+            <App />
             </ScrollToTop>
         </BrowserRouter> 
     </Provider>

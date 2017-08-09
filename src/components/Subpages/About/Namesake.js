@@ -1,25 +1,22 @@
-import React, { Component } from 'react';
+ import React, { Component } from 'react';
 
-class Namesake extends Component{
-    constructor(props){
-        super(props);
-    }
-    render(){
-        return(
+class Namesake extends Component {
+    render() {
+        return (
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-1"/>
+                    <div className="col-md-1" />
                     <div className="col-md-10">
                         <div className="well">
                             <h1>Why Sujak Stack</h1>
                                 <p>Developers throw the word "stack" around. There are actually 
                                     different kinds of references to stack in the tech world! Generally speaking,
                                     a stack refers to layers. 
-                                </p><br/>
+                                </p><br />
                             <div className="row">
                                 <div className="col-sm-4">
                                     <div className="media-left">
-                                        <img className="image-responsive" src="http://i.imgur.com/TwKNpGUm.png" alt="sujak_stack"/>
+                                        <img className="image-responsive" src="http://i.imgur.com/TwKNpGUm.png" alt="sujak_stack" />
                                     </div>
                                 </div> { /* <!-- end col-sm-4 --> */}
                                 <div className="col-sm-8">
@@ -32,11 +29,11 @@ class Namesake extends Component{
                                         </p>
                                 </div> { /* <!-- end col-sm-7 --> */}
                             </div>
-                            <hr/>
+                            <hr />
                             <div className="row">
                                 <div className="col-sm-4">
                                     <div className="media-left">
-                                        <img className="image-responsive" src="http://i.imgur.com/58TCUpHm.png" alt="net_prot"/>
+                                        <img className="image-responsive" src="http://i.imgur.com/58TCUpHm.png" alt="net_prot" />
                                     </div>
                                 </div> { /* <!-- end col-sm-6 --> */}
                                 <div className="col-sm-8">
@@ -46,11 +43,11 @@ class Namesake extends Component{
                                         </p>
                                 </div> { /* <!-- end col-sm-6 --> */}
                             </div> {/* <!-- end row --> */}
-                            <hr/>
+                            <hr />
                             <div className="row">
                                 <div className="col-sm-4">
                                     <div className="media-left">
-                                        <img src="http://i.imgur.com/vpWQxWhm.png" className="img-responsive" alt="dev_stack"/>
+                                        <img src="http://i.imgur.com/vpWQxWhm.png" className="img-responsive" alt="dev_stack" />
                                     </div>
                                 </div> { /* <!-- end col-sm-6 --> */}
                                 <div className="col-sm-8">
@@ -78,30 +75,30 @@ class Namesake extends Component{
                                         </ul>
                                 </div> { /* <!-- end col-sm-6 --> */}
                             </div> {/* <!-- end row --> */}
-                            <hr/>
+                            <hr />
                             <div className="container-fluid">
                                 <h3>Sujak</h3><p>
                                     For this site name, Sujak is a combination of my initials. It all started when I had a make-believe 
                                     cookie business in elementary school and my company name was Sujak (thanks parents for your business insight!). 
                                     I also use Sujak as my gamer tag and character names.  
-                                    </p><br/>
+                                    </p><br />
                                 <h3>Stack</h3><p>  
                                     A stack is made up of layers to make one. I consider this analogous to myself. Developer, coder, gamer, 
                                     nurse, dachshund lover, writer, cook, traveler, ... many different facets.    
-                                    </p><br/>
+                                    </p><br />
                                 <h3>This Actual Stack</h3>
-                                    <p>For this website I used <a href="https://facebook.github.io/react/" target="_blank">React</a> for most of the 
-                                    front end work, along with <a href="http://getbootstrap.com/" target="_blank">Bootstrap v3.3.7</a> for styling.
-                                    All of this is bundled up with <a href="https://webpack.github.io/" target="_blank">Webpack</a> and hosted with 
-                                    <a href="https://www.heroku.com" target="_blank"> Heroku.</a> I have been
+                                    <p>For this website I used <a href="https://facebook.github.io/react/" target="_blank" rel="noopener noreferrer">React</a> for most of the 
+                                    front end work, along with <a href="http://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap v3.3.7</a> for styling.
+                                    All of this is bundled up with <a href="https://webpack.github.io/" target="_blank" rel="noopener noreferrer">Webpack</a> and hosted with 
+                                    <a href="https://www.heroku.com" target="_blank" rel="noopener noreferrer"> Heroku.</a> I have been
                                     an AWS user for almost a year, but my free tier is expiring, so I switched to Heroku for this application. 
                                     I'm still a fan of AWS since it's nice to have my own infrastructures in the cloud, like a Linux box to play around 
                                     with.  
-                                </p><br/>
+                                </p><br />
                             </div> { /* <!-- end container-fluid --> */}
                         </div> { /* <!-- end well --> */ }
                     </div> { /* <!-- end col-md-10--> */}
-                    <div className="col-md-1"/>
+                    <div className="col-md-1" />
                 </div> { /* <!-- end row --> */ }
             </div>
         );

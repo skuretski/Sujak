@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 
-class About extends Component{
-    constructor(props){
-        super(props);
-    }
-    render(){
-        return(
+class About extends Component {
+    render() {
+        return (
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-2"/>
+                    <div className="col-md-2" />
                     <div className="col-md-8">
                         <div className="well">
                             <h1>About</h1>
@@ -32,7 +29,7 @@ class About extends Component{
                                 <p>Today, I am enthusiastic and overwhelmed with what I want to learn. As a frequent Udemy user, I have enrolled in 
                                     multiple classes like Python and R, Introduction to Data Science, and Video Game Development with Unreal Engine. 
                                     I feel like the world is my oyster, and ain't nobody got time for idle minds. 
-                                </p><hr/>
+                                </p><hr />
                             <h3>Nurse</h3><p>I am currently a surgical nurse and had worked in critical care for six years. I currently enjoy my job 
                                 as a PACU nurse, and I love my co-workers. Nurses have a great sense of comraderie. In my years in critical care, I learned 
                                 a lot, saw a lot, and cried a lot. My adrenal glands wore thin. I had high blood pressure in my early 20's. It was a stressful 
@@ -40,7 +37,7 @@ class About extends Component{
                             </p>
                             <p>I mostly did cardiovascular surgical ICU with heart bypass and valve replacement patients. Occassionally, throw on the 
                                 charge nurse phone and pager, and an orientee, and an admit, and a transfer, and a stroke alert, and a... code brown. 
-                            </p><hr/>
+                            </p><hr />
                             <h3>Gamer</h3>
                                 <p>When I was a child, I was not allowed to play video games. My mom's answer was to go outside or read a book, 
                                 which was a very good thing. I loved sports, and I read recreationally. As an adult, I am grateful for this. However, I also 
@@ -59,10 +56,10 @@ class About extends Component{
                                 </p>
                         </div> { /* <-- END WELL --> */}
                     </div> {/* <-- END COL-MD-8 --> */}
-                    <div className="col-md-2"/>
+                    <div className="col-md-2" />
                 </div> {/* <-- END ROW --> */}
             </div>
-        )
+        );
     }
 }
 

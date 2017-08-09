@@ -1,33 +1,33 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-class TwitterTimeline extends Component{
-    constructor(props){
+class TwitterTimeline extends Component {
+    constructor(props) {
         super(props);
         this.state = { 
             initialized: false 
         };
     }
-    componentDidMount(){
-        if(this.state.initialized)
+    componentDidMount() {
+        if (this.state.initialized)
             return;
-        else{
-            if(typeof twttr === 'undefined'){
+        else {
+            if (typeof twttr === 'undefined'){
                 const twittertimeline = ReactDOM.findDOMNode(this.refs.twittertimeline);
                 const twitterscript = document.createElement('script');
                 twitterscript.src = "//platform.twitter.com/widgets.js";
                 twitterscript.async = true;
                 twitterscript.id = 'twitter-wjs';
                 twittertimeline.parentNode.appendChild(twitterscript);
-            } else{
+            } else {
                 twttr.widgets.load();
             }
-            this.setState({initialized: true});
+            this.setState({ initialized: true });
         }
     }
-    render(){
+    render() {
         const { user, limit } = this.props;
-        return(   
+        return (   
             <div className="container-fluid">
                 <div className="well">
                     <h2>Twitter Feed</h2>
@@ -46,7 +46,7 @@ class TwitterTimeline extends Component{
                     Tweets By {user}
                 </a>
             </div>
-        )
+        );
     }
 }
 

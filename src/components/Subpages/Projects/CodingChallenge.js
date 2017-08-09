@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 
-class CodingChallenge extends Component{
-    constructor(props){
-        super(props);
-    }
-    render(){
-        return(
+class CodingChallenge extends Component {
+    render() {
+        return (
             <div className="container-fluid">
             </div>
         );

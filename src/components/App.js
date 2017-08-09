@@ -13,27 +13,24 @@ import Namesake from '../components/Subpages/About/Namesake';
 import BottomNavBar from '../components/Navigation/BottomNavBar';
 import CodingChallenge from '../components/Subpages/Projects/CodingChallenge';
 
-class App extends Component{
-    constructor(props){
-        super(props);
-    }
-    render(){
-        return(
+class App extends Component {
+    render() {
+        return (
             <div>
                 <Switch>
-                    <Route path="/about/namesake" component={Namesake}/>
-                    <Route path="/about" component={About}/>
-                    <Route path="/games" component={Games}/>
-                    <Route path="/news" component={News}/>
-                    <Route path="/nursing" component={Healthcare}/>
-                    <Route path="/projects/CTCI" component={CodingChallenge}/>
-                    <Route path="/projects" component={Projects}/>
-                    <Route path="/home" component={Home}/>
-                    <Route exact path="/" component={Home}/>
-                    <Route path="*" component={My404}/>
+                    <Route path="/about/namesake" component={Namesake} />
+                    <Route path="/about" component={About} />
+                    <Route path="/games" component={Games} />
+                    <Route path="/news" component={News} />
+                    <Route path="/nursing" component={Healthcare} />
+                    <Route path="/projects/CTCI" component={CodingChallenge} />
+                    <Route path="/projects" component={Projects} />
+                    <Route path="/home" component={Home} />
+                    <Route exact path="/" component={Home} />
+                    <Route path="*" component={My404} />
                 </Switch>
-                <TopNavBar/>
-                <BottomNavBar/>
+                <TopNavBar />
+                <BottomNavBar />
             </div>
         );
     }
