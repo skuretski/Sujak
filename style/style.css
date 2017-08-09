@@ -12,6 +12,10 @@ body{
     background-color: #fce7e2 !important;
     color:#9a9898!important;
 }
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: #fce7e2 !important;
+}
 a.active{
     background-color: #fce7e2 !important;
     color:#ec5742 !important;
@@ -140,4 +144,19 @@ p > a, p > a:hover{
 }
 hr {
     border-color: #333 !important;
+}
+
+/* Photos */
+.pull-left > img{
+    padding-right: 20px;
+}
+
+.pull-right > img{
+    padding-left: 20px;
+}
+
+.caption > p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px !important;
 }

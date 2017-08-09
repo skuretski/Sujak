@@ -37,12 +37,12 @@ class TopNavBar extends Component {
                                     Projects<span className="caret"></span>
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><NavLink to="/projects/CTCI" activeClassName="selected" onClick={(e) => this.onClick()}>Coding Challenges</NavLink></li>
+                                    <li><NavLink to="/projects/CodeChallenge" activeClassName="selected" onClick={(e) => this.onClick()}>Coding Challenges</NavLink></li>
                                     <li><NavLink to="/projects/cassiopeia" activeClassName="selected">React Web Application</NavLink></li>
                                 </ul>
                             </li>
-                            <li><NavLink to="/games" activeClassName="selected" onClick={(e) => this.onClick()}>Games</NavLink></li>
-                            <li><NavLink to="/nursing" activeClassName="selected" onClick={(e) => this.onClick()}>Health Care</NavLink></li>
+                            <li><NavLink to="/games" activeClassName="selected" onClick={(e) => this.onClick()}>Games & Hardware</NavLink></li>
+                            <li><NavLink to="/healthcare" activeClassName="selected" onClick={(e) => this.onClick()}>Healthcare</NavLink></li>
                             <li className="dropdown">
                                 <a className="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                 aria-expanded="false">About<span className="caret"></span></a>
