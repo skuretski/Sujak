@@ -38,7 +38,7 @@ class TopNavBar extends Component {
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><NavLink to="/projects/CodeChallenge" activeClassName="selected" onClick={(e) => this.onClick()}>Coding Challenges</NavLink></li>
-                                    <li><NavLink to="/projects/cassiopeia" activeClassName="selected">React Web Application</NavLink></li>
+                                    <li><NavLink to="/projects/cassiopeia" activeClassName="selected" onClick={(e)=> this.onClick()}>Current Projects</NavLink></li>
                                 </ul>
                             </li>
                             <li><NavLink to="/games" activeClassName="selected" onClick={(e) => this.onClick()}>Games & Hardware</NavLink></li>
