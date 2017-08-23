@@ -28,13 +28,14 @@ class TopNavBar extends Component {
                             <li />
                             <li><NavLink to="/news" activeClassName="selected" onClick={(e) => this.onClick()}>News</NavLink></li>
                             <li className="dropdown">
-                                <a  className="dropdown-toggle" 
+                                <a  
+                                    className="dropdown-toggle" 
                                     data-toggle="dropdown" 
                                     href="#" 
                                     role="button" 
                                     aria-haspopup="true"
-                                    aria-expanded="false" >
-                                    Projects<span className="caret"></span>
+                                    aria-expanded="false" 
+                                >Projects<span className="caret"></span>
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><NavLink to="/projects/CodeChallenge" activeClassName="selected" onClick={(e) => this.onClick()}>Coding Challenges</NavLink></li>
@@ -44,8 +45,14 @@ class TopNavBar extends Component {
                             <li><NavLink to="/games" activeClassName="selected" onClick={(e) => this.onClick()}>Games & Hardware</NavLink></li>
                             <li><NavLink to="/healthcare" activeClassName="selected" onClick={(e) => this.onClick()}>Healthcare</NavLink></li>
                             <li className="dropdown">
-                                <a className="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                                aria-expanded="false">About<span className="caret"></span></a>
+                                <a 
+                                    className="dropdown-toggle"
+                                    data-toggle="dropdown" href="#" 
+                                    role="button"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                >About<span className="caret"></span>
+                                </a>
                                 <ul className="dropdown-menu">
                                     <li><NavLink exact={true} activeClassName="selected" onClick={(e) => this.onClick()} to="/about">About Sujak</NavLink></li>
                                     <li><NavLink exact={true} activeClassName="selected" onClick={(e) => this.onClick()} to="/about/namesake">Namesake</NavLink></li>
