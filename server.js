@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+
 const port = process.env.PORT || 8080;
 const app = express();
 
@@ -9,4 +10,4 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port);
-console.log('Sujak server.js is running on port ' + port);
+console.log(`Sujak server.js is running on port ${port}`);
