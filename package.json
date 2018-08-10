@@ -24,7 +24,7 @@
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^4.4.0-alpha.1",
     "redux": "^3.7.2",
     "redux-thunk": "^2.3.0"
   },
@@ -35,12 +35,16 @@
     "babel-preset-react": "^6.24.1",
     "chai": "^4.1.2",
     "chai-jquery": "^2.0.0",
+    "css-loader": "^1.0.0",
     "eslint-config-rallycoding": "^3.2.0",
     "jquery": "^3.3.1",
     "jsdom": "^11.12.0",
     "mocha": "^3.5.3",
+    "node-sass": "^4.9.3",
     "react-addons-test-utils": "^15.6.2",
-    "webpack": "^2.7.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^3.0.0",
     "webpack-dev-server": "^2.11.2"
   }
 }

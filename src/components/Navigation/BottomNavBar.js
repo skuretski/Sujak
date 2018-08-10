@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import './navigation.styles.scss';
 
 class BottomNavBar extends Component {
 render() {

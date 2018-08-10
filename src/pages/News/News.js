@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TwitterTimeline from '../Twitter/TwitterTimeline';
+import TwitterTimeline from './../../components/twitter/TwitterTimeline';
 
 class News extends Component {
     render() {
