@@ -10,7 +10,8 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
-        loaders: [{
+        loaders: [
+            {
             exclude: /node_modules/,
             loader: 'babel-loader',
             query: {
