@@ -10,8 +10,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
-        loaders: [
-            {
+        loaders: [{
             exclude: /node_modules/,
             loader: 'babel-loader',
             query: {
@@ -24,7 +23,7 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
-        contentBase: './'
+        contentBase: './src'
     },
     // plugins: [
     //     new webpack.DefinePlugin({
