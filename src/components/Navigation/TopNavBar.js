@@ -1,5 +1,11 @@
 import React from 'react';
-import { Navbar, NavDropdown, Nav, NavItem, MenuItem } from 'react-bootstrap';
+import {
+  Navbar,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 
 export default class TopNavBar extends React.Component {
 render() {
@@ -57,30 +63,26 @@ return (
   //   </div> {/* <!-- navbar-collapse --> */}
   //   </nav> {/* <!-- navbar --> */}
   // </div>
-  <div>
-  <Navbar className="mb-0 pb-0">
-  <Navbar.Header>
-    <Navbar.Brand>
-      <NavItem className="list-group-item" href="/"><img alt="logo" className="hidden-xs" src="https://i.imgur.com/43Ftomz.pngg" /></NavItem>
-    </Navbar.Brand>
-  </Navbar.Header>
-  <Nav>
-    <NavItem href="#">
-      Link
-    </NavItem>
-    <NavItem href="#">
-      Link
-    </NavItem>
-    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-      <MenuItem >Action</MenuItem>
-      <MenuItem >Another action</MenuItem>
-      <MenuItem >Something else here</MenuItem>
-      <MenuItem divider />
-      <MenuItem >Separated link</MenuItem>
-    </NavDropdown>
-  </Nav>
-</Navbar>
-</div>
+  
+  <Navbar className="mb-0 py-2 bg-white">
+      <NavbarBrand>
+        <NavItem className="list-group-item" href="/"><img alt="logo" className="hidden-xs" src="https://i.imgur.com/43Ftomz.pngg" /></NavItem>
+      </NavbarBrand>
+    <Nav>
+      <NavItem href="#">
+        Link
+      </NavItem>
+      <NavItem href="#">
+        Link
+      </NavItem>
+      <DropdownMenu isOpen="false" title="Dropdown" id="basic-nav-dropdown">
+        <DropdownItem >Action</DropdownItem>
+        <DropdownItem >Another action</DropdownItem>
+        <DropdownItem >Something else here</DropdownItem>
+        <DropdownItem >Separated link</DropdownItem>
+      </DropdownMenu>
+    </Nav>
+  </Navbar>
 );
 }
 }
