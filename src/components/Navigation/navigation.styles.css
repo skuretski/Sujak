@@ -1,0 +1,86 @@
+/* Navigation Styling  */
+/* #main-nav > ul > li > a:hover, #main-nav > ul > li > ul > li > a:hover{
+	background-color: #fce7e2 !important;
+	color:#9a9898!important;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	background-color: #fce7e2 !important;
+}
+a.active{
+	background-color: #fce7e2 !important;
+	color:#ec5742 !important;
+}
+a.selected{
+	background-color: #fce7e2 !important;
+	color:#ec5742 !important;
+}
+a{
+	color: #333 !important;
+	font-size: 18px;
+}
+
+nav{
+	padding: 10px;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: "Helvetica", sans-serif;
+}
+.navbar-toggle{
+	margin: 23px 0;
+}
+
+.navbar-nav, .navbar-nav li, .navbar-nav li a{
+	height: 80px;
+	line-height: 80px;
+}
+
+.navbar-nav li a{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.navbar-fixed-top .nav{
+	padding: 15px 0;
+}
+
+@media(max-width: 767px){
+	.navbar-brand{
+			padding: 0;
+	}
+	.navbar-brand h3{
+			margin-top: 0px;
+			margin-bottom: 5px;
+	}
+}
+
+.navbar-fixed-top{
+	background-color: #fce7e2 !important;
+}
+.navbar-brand > img{
+	height: auto !important;
+	width: auto !important;
+}
+.nav-pills >li{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+/* Bottom Navbar 
+.navbar-fixed-bottom{
+	background-color: #888a89 !important;
+}
+
+.navbar-fixed-bottom > .list-inline{
+	display: table;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.navbar-fixed-bottom > .list-inline > li{
+	float: left;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+

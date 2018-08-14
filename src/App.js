@@ -13,8 +13,6 @@ import Namesake from 				'./pages/About/Namesake';
 import BottomNavBar from 		'./components/navigation/BottomNavBar';
 import CodingChallenge from './pages/Projects/CodingChallenge';
 
-require('./styles/global.scss');
-
 class App extends Component {
 render() {
 	return (
@@ -39,6 +37,5 @@ render() {
 	);
 }
 }
-
 
 export default withRouter(App);
